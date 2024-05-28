@@ -11,7 +11,7 @@ let Old_Total = -1
 basic.forever(function () {
     Calc_Total()
     while (Total != Old_Total) {
-        basic.showNumber(Total)
+        whaleysans.showNumber(Total)
         Old_Total = Total
     }
 })
