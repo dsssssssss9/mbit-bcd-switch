@@ -4,7 +4,7 @@ input.onButtonPressed(Button.B, function () {
     basic.showNumber(Total)
 })
 let Total = 0
-basic.showIcon(IconNames.Heart)
+basic.showIcon(IconNames.Yes)
 Total = 0
 basic.forever(function () {
 	
